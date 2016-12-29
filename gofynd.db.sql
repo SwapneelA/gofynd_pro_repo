@@ -14,3 +14,4 @@ create table ItemSizeWiseQuantity(id int primary key,stockId int,sizeId int,quan
 foreign key(stockId) references Stock(stockId) ON DELETE CASCADE 
 ) engine=InnoDB;
 
+#File changed
